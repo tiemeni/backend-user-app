@@ -4,7 +4,8 @@
   "description": "Edit me later",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "",
@@ -12,6 +13,16 @@
   "dependencies": {
     "body-parser": "^1.20.0",
     "dotenv": "^16.0.1",
-    "express": "^4.18.1"
-  }
+    "express": "^4.18.1",
+    "nodemon": "^2.0.19"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tiemeni/backend-user-app.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tiemeni/backend-user-app/issues"
+  },
+  "homepage": "https://github.com/tiemeni/backend-user-app#readme"
 }
